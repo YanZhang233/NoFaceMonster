@@ -207,7 +207,8 @@ body {
   cursor: pointer;
 }
 
-.heart:hover {
+.heart:hover,
+.heart-active {
   background-position: -2800px;
   transition: background 1s steps(28);
 }

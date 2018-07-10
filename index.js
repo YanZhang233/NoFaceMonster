@@ -13,3 +13,7 @@ function popHeart() {
     loading.classList.add("hide");
     heart.classList.remove("hide");
 }
+
+heart.addEventListener("click", function () {
+    heart.classList.add("heart-active");
+});
